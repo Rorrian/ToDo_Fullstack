@@ -1,0 +1,24 @@
+/* Анимация появления нового элемента списка - todo */
+.todo-enter-active {
+  animation: todo 0.8s ease-in alternate-reverse;
+}
+
+/* Анимация удаления элемента списка - todo */
+.todo-exit-active {
+  animation: todo 0.8s ease-out forwards;
+}
+
+@keyframes todo {
+  0% {
+    transform: translateX(0);
+  }
+
+  30% {
+    opacity: 0.7;
+    transform: translateX(30px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+}

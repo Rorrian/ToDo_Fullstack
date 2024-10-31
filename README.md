@@ -1,5 +1,7 @@
 # Fullstack-проект ToDo-list
 
+![Alt text](/git-images/image.png)
+
 ## Реализованы следующие механизмы:
 - **Основной функционал работы с БД** - CRUD (create, read, update, delete)
 - **Получение данных с сервера**
@@ -46,6 +48,3 @@
   yarn install
   yarn start
 ```
-
-## Скриншоты
-![Alt text](/git-images/image.png)
